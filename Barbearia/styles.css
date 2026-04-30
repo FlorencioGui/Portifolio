@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+header {
+  background-color: #3333333a;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: ease 0.3s;
+  display: flex;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+.agendar-horario {
+  font-size: 22px;
+  text-align: center;
+  background: linear-gradient(135deg, #2f5f9e, #3a7bd5);
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 2px;
+  width: 15%;
+  color: white;
+}
+.barbearia-premium {
+  font-size: 19px;
+  width: 15%;
+}
+.nome-subtitulo-botao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  gap: 10px;
+}
+.Est-Pre-Con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.linha {
+  width: 30px;
+  height: 1px;
+  margin: 20px;
+  background-color: black;
+  border: solid black 0.1px;
+  border-radius: 5px;
+}
