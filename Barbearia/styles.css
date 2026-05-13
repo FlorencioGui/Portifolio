@@ -38,6 +38,11 @@ nav ul li a:hover {
   padding: 2px;
   width: 15%;
   color: white;
+  text-decoration: none;
+}
+.btn{
+  text-decoration: none;
+  color: white;
 }
 .barbearia-premium {
   font-size: 19px;
@@ -49,7 +54,8 @@ nav ul li a:hover {
   text-align: center;
   justify-content: center;
   height: 200px;
-  gap: 10px;
+  gap: 15px;
+  margin-top: 10px;
 }
 .Est-Pre-Con {
   display: flex;
@@ -65,4 +71,9 @@ nav ul li a:hover {
   background-color: black;
   border: solid black 0.1px;
   border-radius: 5px;
+}
+.btn2{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
